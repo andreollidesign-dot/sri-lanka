@@ -1,0 +1,261 @@
+{
+  "viaggio": "Sri Lanka zaino in spalla",
+  "viaggiatori": [
+    "Greta",
+    "Ale"
+  ],
+  "arrivo": "2026-12-13",
+  "partenza": "2027-01-09",
+  "notti_totali": 27,
+  "tappe": [
+    {
+      "id": "negombo",
+      "nome": "Negombo",
+      "date": "13–14 dic",
+      "notti": 2,
+      "coord": [
+        7.2083,
+        79.8358
+      ],
+      "tipo": "base",
+      "ambiente": "costa",
+      "descrizione": "Prima tappa a due passi dall'aeroporto: ritmo lento per riprendersi dal volo.",
+      "cosa_fare": [
+        "Mercato del pesce al mattino presto",
+        "Giro in barca nella laguna e nei canali olandesi",
+        "Tramonto sulla spiaggia"
+      ],
+      "come_arrivare": "Tuk-tuk o taxi dall'aeroporto (circa 20 minuti)."
+    },
+    {
+      "id": "anuradhapura",
+      "nome": "Anuradhapura",
+      "date": "15–16 dic",
+      "notti": 2,
+      "coord": [
+        8.3114,
+        80.4037
+      ],
+      "tipo": "base",
+      "descrizione": "Antica capitale con stupa giganteschi e l'albero sacro della Bodhi.",
+      "cosa_fare": [
+        "Area archeologica in bicicletta",
+        "Sri Maha Bodhi e Ruwanwelisaya",
+        "Gita facoltativa a Mihintale"
+      ],
+      "come_arrivare": "Bus o auto da Negombo (circa 3,5 ore)."
+    },
+    {
+      "id": "sigiriya",
+      "nome": "Sigiriya",
+      "date": "17–19 dic",
+      "notti": 3,
+      "coord": [
+        7.957,
+        80.7603
+      ],
+      "tipo": "base",
+      "descrizione": "Base per il Triangolo culturale, tra rocche, templi e elefanti.",
+      "cosa_fare": [
+        "Pidurangala all'alba",
+        "Rocca del Leone di Sigiriya",
+        "Polonnaruwa in bicicletta (gita in giornata)",
+        "Templi nelle grotte di Dambulla",
+        "Safari degli elefanti a Minneriya o Kaudulla"
+      ],
+      "come_arrivare": "Bus via Dambulla o auto da Anuradhapura (circa 2 ore)."
+    },
+    {
+      "id": "kandy",
+      "nome": "Kandy",
+      "date": "20–22 dic",
+      "notti": 3,
+      "coord": [
+        7.2906,
+        80.6337
+      ],
+      "tipo": "base",
+      "descrizione": "Città sul lago, cuore religioso del paese e porta per le montagne.",
+      "cosa_fare": [
+        "Tempio del Sacro Dente",
+        "Giardino botanico di Peradeniya",
+        "Trekking di una giornata nei Knuckles"
+      ],
+      "come_arrivare": "Bus o auto da Sigiriya (circa 2,5 ore)."
+    },
+    {
+      "id": "dalhousie",
+      "nome": "Dalhousie (Adam's Peak)",
+      "date": "23–24 dic",
+      "notti": 2,
+      "coord": [
+        6.8086,
+        80.4995
+      ],
+      "tipo": "base",
+      "descrizione": "Villaggio ai piedi dell'Adam's Peak, la montagna sacra.",
+      "cosa_fare": [
+        "Salita notturna tra il 24 e il 25 dicembre, partenza verso le 2",
+        "Alba di Natale in cima"
+      ],
+      "come_arrivare": "Auto o bus via Hatton da Kandy (circa 3,5 ore)."
+    },
+    {
+      "id": "nuwara-eliya",
+      "nome": "Nuwara Eliya",
+      "date": "25–26 dic",
+      "notti": 2,
+      "coord": [
+        6.9497,
+        80.7891
+      ],
+      "tipo": "base",
+      "descrizione": "Clima fresco e piantagioni di tè a perdita d'occhio.",
+      "cosa_fare": [
+        "Horton Plains e World's End all'alba del 26",
+        "Visita a una fabbrica di tè",
+        "Lago Gregory"
+      ],
+      "come_arrivare": "Auto da Dalhousie (circa 2,5 ore)."
+    },
+    {
+      "id": "nanu-oya",
+      "nome": "Treno Nanu Oya → Ella",
+      "date": "27 dic",
+      "notti": 0,
+      "coord": [
+        6.9425,
+        80.747
+      ],
+      "tipo": "transito",
+      "descrizione": "Il tratto più panoramico della ferrovia degli altopiani.",
+      "cosa_fare": [
+        "Viaggio in treno tra le piantagioni (posti riservati)"
+      ],
+      "come_arrivare": "Tuk-tuk da Nuwara Eliya alla stazione di Nanu Oya (o Ambewela)."
+    },
+    {
+      "id": "ella",
+      "nome": "Ella",
+      "date": "27–29 dic",
+      "notti": 3,
+      "coord": [
+        6.8667,
+        81.0466
+      ],
+      "tipo": "base",
+      "descrizione": "Villaggio di montagna con sentieri, cascate e il ponte più fotografato del paese.",
+      "cosa_fare": [
+        "Little Adam's Peak",
+        "Ella Rock",
+        "Nine Arch Bridge al passaggio del treno",
+        "Cascate di Ravana"
+      ],
+      "come_arrivare": "Treno da Nanu Oya."
+    },
+    {
+      "id": "tissamaharama",
+      "nome": "Tissamaharama",
+      "date": "30 dic",
+      "notti": 1,
+      "coord": [
+        6.2847,
+        81.2873
+      ],
+      "tipo": "base",
+      "descrizione": "Base economica per il parco nazionale di Yala.",
+      "cosa_fare": [
+        "Safari a Yala all'alba del 31: leopardi, elefanti, coccodrilli"
+      ],
+      "come_arrivare": "Bus o auto da Ella (circa 2,5 ore)."
+    },
+    {
+      "id": "hiriketiya",
+      "nome": "Hiriketiya / Tangalle",
+      "date": "31 dic – 3 gen",
+      "notti": 4,
+      "coord": [
+        5.9622,
+        80.7069
+      ],
+      "tipo": "base",
+      "ambiente": "costa",
+      "descrizione": "Piccola baia con la giungla fino alla sabbia; Tangalle a 15 minuti per spiagge lunghe e tranquille.",
+      "cosa_fare": [
+        "Capodanno in baia",
+        "Lezioni di surf",
+        "Spiagge di Tangalle e Rekawa"
+      ],
+      "come_arrivare": "Auto o tuk-tuk da Tissamaharama dopo il safari (circa 1,5 ore)."
+    },
+    {
+      "id": "mirissa",
+      "nome": "Mirissa / Weligama",
+      "date": "4–6 gen",
+      "notti": 3,
+      "coord": [
+        5.9483,
+        80.4716
+      ],
+      "tipo": "base",
+      "ambiente": "costa",
+      "descrizione": "La spiaggia più famosa del sud, con vita serale e onde per principianti a Weligama.",
+      "cosa_fare": [
+        "Whale watching",
+        "Surf a Weligama",
+        "Coconut Tree Hill al tramonto"
+      ],
+      "come_arrivare": "Bus lungo la costa da Hiriketiya (circa 1 ora)."
+    },
+    {
+      "id": "galle",
+      "nome": "Galle Fort",
+      "date": "7 gen",
+      "notti": 0,
+      "coord": [
+        6.0269,
+        80.217
+      ],
+      "tipo": "sosta",
+      "descrizione": "Città fortificata olandese, patrimonio UNESCO: sosta di mezza giornata.",
+      "cosa_fare": [
+        "Passeggiata sui bastioni",
+        "Faro e vicoli del Forte"
+      ],
+      "come_arrivare": "Bus o tuk-tuk da Mirissa (circa 45 minuti)."
+    },
+    {
+      "id": "colombo",
+      "nome": "Colombo",
+      "date": "7–8 gen",
+      "notti": 2,
+      "coord": [
+        6.9271,
+        79.8612
+      ],
+      "tipo": "base",
+      "ambiente": "costa",
+      "descrizione": "La capitale per chiudere il viaggio prima del volo.",
+      "cosa_fare": [
+        "Mercato di Pettah",
+        "Tempio Gangaramaya",
+        "Tramonto a Galle Face Green"
+      ],
+      "come_arrivare": "Treno costiero o bus da Galle (circa 2,5 ore)."
+    },
+    {
+      "id": "aeroporto",
+      "nome": "Aeroporto Bandaranaike",
+      "date": "9 gen",
+      "notti": 0,
+      "coord": [
+        7.1808,
+        79.8841
+      ],
+      "tipo": "transito",
+      "descrizione": "Volo di rientro.",
+      "cosa_fare": [],
+      "come_arrivare": "Taxi da Colombo (circa 1 ora)."
+    }
+  ]
+}

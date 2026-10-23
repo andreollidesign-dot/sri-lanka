@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#F5F0E6">
+  <title>Sri Lanka</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icone/icona.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icone/icona-180.png">
+  <link rel="preload" href="fonts/young-serif-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/atkinson-hyperlegible-next-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="css/stile.css">
+</head>
+<body>
+  <a class="salta" href="#contenuto">Vai al contenuto</a>
+
+  <div class="layout">
+    <div class="colonna">
+      <header class="testata" id="testata"></header>
+
+      <main id="contenuto" tabindex="-1">
+        <ol class="rail" id="linea" aria-label="Tappe del viaggio"></ol>
+        <div id="tappa" hidden></div>
+        <div class="avviso" id="avviso" hidden></div>
+      </main>
+
+      <footer class="piede" id="piede"></footer>
+    </div>
+
+    <div class="mappa-wrap" id="mappa-wrap">
+      <div class="mappa" id="mappa" role="region" aria-label="Mappa del percorso"></div>
+      <button class="mappa-btn mappa-apri" id="mappa-apri" type="button">Esplora la mappa</button>
+      <button class="mappa-btn mappa-chiudi" id="mappa-chiudi" type="button">Chiudi la mappa</button>
+    </div>
+  </div>
+
+  <script src="vendor/leaflet/leaflet.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
